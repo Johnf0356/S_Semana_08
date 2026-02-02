@@ -1,0 +1,13 @@
+/* Ajustar las imágenes del carrusel para que tengan un solo porte y sean más pequeñas */
+.carousel-inner img {
+    width: 100%;
+    height: 300px; /* Altura más pequeña para las imágenes */
+    object-fit: cover; /* Asegura que las imágenes se ajusten correctamente */
+}
+
+/* Opcional: Si deseas que las imágenes sean ligeramente más grandes en pantallas más grandes */
+@media (min-width: 768px) {
+    .carousel-inner img {
+        height: 350px; /* Ajusta la altura en pantallas más grandes */
+    }
+}
